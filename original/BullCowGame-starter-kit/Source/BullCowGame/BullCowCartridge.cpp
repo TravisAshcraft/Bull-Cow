@@ -7,7 +7,6 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     Super::BeginPlay();
     PrintLine(TEXT("Hello and welcome to Bull Cow!!"));
     PrintLine(TEXT("By pressing tab, then enter you will be able to type on the console"));
-    PrintLine(TEXT("What is your name?\n"));
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
